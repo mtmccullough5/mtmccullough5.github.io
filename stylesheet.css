@@ -1,0 +1,30 @@
+body {
+  margin: 0 0 0 0;
+  display: grid;
+}
+
+.blueSection {
+  background: #1A2930;
+  color: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+}
+
+.greySection {
+  background: #C5C1C0;
+  color: #0A1612;
+  height: 100vh;
+  width: 100%;
+}
+
+.yellowSection {
+  background: #F7CE3E;
+  color: #1A2930;
+  height: 50vh;
+  width: 100%;
+}
+
+h3 {
+  display: inline;
+  color: #0A1612;
+}
