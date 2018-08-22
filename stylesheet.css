@@ -4,7 +4,9 @@ body {
 }
 
 nav {
-  height: 10vh;
+  height: 8vh;
+  align-self: flex-end;
+  padding-bottom: 10px;
 }
 
 section {
@@ -33,35 +35,57 @@ section {
   height: 50vh;
 }
 
-.rightTitle {
-  height: 15vh;
+.titleBox {
+  height: 10vh;
+  width: 30vw;
   display: flex;
-  align-self: flex-end;
+  border-bottom: 3px solid #F7CE3E;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.leftTitle {
-  height: 15vh;
-  display: flex;
-  align-self: flex-start;
+.right {
+  align-self: flex-end;
+  justify-content: flex-end;
+  padding-right: 15px;
 }
+
+.left {
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+
 .projContainer {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
+
 #landing {
   height: 100vh;
   display:flex;
   justify-content: space-around;
   align-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+#titleLine {
+  min-width: 10em;
+  align-content: center;
+  padding: 0 5% 10px 5%;
+  border-bottom: 3px solid #F7CE3E
 }
 
 #headshot {
-  height: 60%;
-  width: auto;
   border-radius: 50%;
 }
+
+h2 {
+  margin: 0 0 0 0;
+  align-self: flex-end
+}
+
 h3 {
   display: inline;
   color: #0A1612;
