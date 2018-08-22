@@ -2,15 +2,17 @@ body {
   margin: 0 0 0 0;
   display: grid;
 }
-
+nav {
+  height: 10vh;
+}
 .blueSection {
   background: #1A2930;
   color: #FFFFFF;
   height: 100vh;
   width: 100%;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .greySection {
@@ -18,6 +20,8 @@ body {
   color: #0A1612;
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .yellowSection {
@@ -25,14 +29,27 @@ body {
   color: #1A2930;
   height: 50vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.projContainer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+#landing {
+  display:flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
 }
 
 #headshot {
-  padding: 0px;
-  display: flex;
-}
-h1 {
-  display: flex;
+  height: 60%;
+  width: auto;
+  border-radius: 50%;
 }
 h3 {
   display: inline;
