@@ -8,6 +8,9 @@ body {
   color: #FFFFFF;
   height: 100vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .greySection {
@@ -24,6 +27,13 @@ body {
   width: 100%;
 }
 
+#headshot {
+  padding: 0px;
+  display: flex;
+}
+h1 {
+  display: flex;
+}
 h3 {
   display: inline;
   color: #0A1612;
