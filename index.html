@@ -16,65 +16,58 @@
         <a>Experience</a>
       </div>
     </nav>
-    <div class="blueSec" id="landing">
+    <section class="blueSec" id="landing">
       <h1 id="titleLine">Engineer/Developer</h1>
       <img id="headshot" src="./images/Headshot.png" alt="Picture of Matthew McCullough"/>
-    </div>
+    </section>
     <section class="greySec">
       <div class="right titleBox">
         <h2>About</h2>
       </div>
-      <p>I am an Engineer.</p>
-      <p> 
-        I graduated from University of California, Davis 
-        with a dgree in Mechanical Engineering and 
-        Aerospace Science and Engineering. I completed a 
-        full stack web Development ocurse at DevPoint Labs 
-        in Salt Lake City.
-      </p>
-      <p>
-        I grew up in California an have spent the last few 
-        years working in Salt Lake City. I can be found on 
-        the hiking trail or on steam chat. 
-      </p>
-      <ul title="Games">
-        <h4>Games I am Playing</h4>
-        <li>Oxygen Not Included</li>
-        <li>Don't Starve Togethor</li>
-        <li>Hearthstone</li>
-        <li>Railroad Tycoon 3</li>
-      </ul>
-      <ul title="Outdoor Adentures">
-        <h4>Things to do/<del>done</del></h4>
-        <li>Find Monte Wolf's Cabin</li>
-        <li>Ironman Triathalon</li>
-        <li><del>Muir Trail to Mt Whitney</del></li>
-        <li><del>Half Marathon</del></li>
-      </ul>
+      <article class="contentContainer" id:"aboutSection">
+        <p>I am an Engineer. 
+          <br/><br/>
+          I graduated from University of California, Davis 
+          with a degree in Mechanical Engineering and 
+          Aerospace Science and Engineering. I completed a 
+          full stack web Development ocurse at DevPoint Labs 
+          in Salt Lake City.
+          <br/><br/>
+          I grew up in California an have spent the last few 
+          years working in Salt Lake City. I can be found on 
+          the hiking trail or on steam chat. 
+        </p>
+      </article>
     </section>
     <section class="blueSec">
       <div class="left titleBox">
         <h2>Projects</h2>
       </div>
-      <div class="projContainer">
-        <figure>
-          <img src="./images/flywheelcalc.png" alt="project snapsot" style="width:100%">
-          <figcaption>
-            Flywheel Storage is a single page react application...
-          </figcaption>
-        </figure>
-        <figure>
-            <img src="./images/flywheelcalc.png" alt="project snapsot" style="width:100%">
-            <figcaption>
-              Flywheel Storage is a single page react application...
-            </figcaption>
-          </figure>
-          <figure>
-              <img src="./images/flywheelcalc.png" alt="project snapsot" style="width:100%">
-              <figcaption>
-                Flywheel Storage is a single page react application...
-              </figcaption>
-            </figure>
+      <div class="contentContainer">
+        <article class="greyArticle">
+            <img src="./images/flywheelcalc.png" alt="project example flywheelcalc.com" style="width:300px">
+          <h4>Flywheel Energy Storage Application</h4>
+          <p>
+            A single page application which provides a quick 
+            look at the size and quantity of steel cylindrical 
+            flywheels would affect different building usage patterns.
+          </p>
+        </article>  
+        <article class="greyArticle">
+          <img src="./images/EAE126-P1.png" alt="project example 2" style="width:300px">
+          <h4>2-D cubic splines</h4>
+          <p>
+              I wrote a 2-D cubic splines code which acted as basis 
+              for a three dimensional airfoil calculation.
+          </p>
+        </article>
+        <article class="greyArticle">
+          <img src="./images/ENG180-P2.jpg" alt="project example 3" style="width:300px">
+          <h4>Lift of a Rotating Cylinder</h4>
+          <p>
+              Circulation of flow passing a rotating cylinder.
+          </p>
+        </article>
       </div>
     </section>
     <section class="yellowSection">
@@ -96,7 +89,8 @@
       <div class="left titleBox">
         <h2>Experience</h2>
       </div>
-      <div class="expSec">
+      <div class="contentContainer">
+        <article class="expSec">
           <h4>Developer and Teachers Assistant</h4>
           <p><i>2018-Present</i></p>
           <ul>
@@ -115,39 +109,52 @@
               React, Redux, Ruby on Rails, GitHub, and more.
             </li>
           </ul>
-        </div>
-      <div class="expSec">
-        <h4>Associate Engineer</h4>
-        <p><i>2015-2018</i></p>
-        <ul>
-            <li>
-              Performed on-site energy audits, developing new projects 
-              and creating relationships with customers.
-            </li>
-            <li>
-              Worked with customers to bring complex projects from 
-              initial concepts through to design, budgeting, 
-              implementation and testing.
-            </li>
-            <li>
-              Completed custom energy efficiency analysis for projects 
-              on the following systems: compressed air, fans, blowers, 
-              pumps, control strategies, industrial equipment and 
-              motor controls.
-            </li>
-            <li>
-              Composed technical reports with detailed energy 
-              engineering calculations for energy efficiency measures 
-              for commercial buildings, heavy industrial facilities, 
-              and manufacturing facilities. 
-            </li>
-        </ul>
-      </div>
+        </article>
+        <article class="expSec">
+          <h4>Associate Engineer</h4>
+          <p><i>2015-2018</i></p>
+          <ul>
+              <li>
+                Performed on-site energy audits, developing new projects 
+                and creating relationships with customers.
+              </li>
+              <li>
+                Worked with customers to bring complex projects from 
+                initial concepts through to design, budgeting, 
+                implementation and testing.
+              </li>
+              <li>
+                Completed custom energy efficiency analysis for projects 
+                on the following systems: compressed air, fans, blowers, 
+                pumps, control strategies, industrial equipment and 
+                motor controls.
+              </li>
+              <li>
+                Composed technical reports with detailed energy 
+                engineering calculations for energy efficiency measures 
+                for commercial buildings, heavy industrial facilities, 
+                and manufacturing facilities. 
+              </li>
+          </ul>
+        </article>
+      </div> 
     </section>
     <section class="greySection">
       <div class="right titleBox">
         <h2>Contact</h2>
       </div>
+      <ul>
+          <h4>Games I am Playing</h4>
+          <li>Oxygen Not Included</li>
+          <li>Don't Starve Togethor</li>
+          <li>Hearthstone</li>
+          <li>Railroad Tycoon 3</li>
+          <h4>Things to do/<del>done</del></h4>
+          <li>Find Monte Wolf's Cabin</li>
+          <li>Ironman Triathalon</li>
+          <li><del>Muir Trail to Mt Whitney</del></li>
+          <li><del>Half Marathon</del></li>
+        </ul>
     </section>
   </body>
 </html>
