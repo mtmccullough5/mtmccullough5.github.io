@@ -23,11 +23,11 @@ a:visited {
 }
 
 p, ul {
-  font-size: 20pt;
+  font-size: 18pt;
   width: 50%;
   min-width: 300px;
   min-height: 0.25vh;
-  text-align: justify;
+  text-align: left;
 }
 
 #linkBar {
@@ -53,18 +53,15 @@ section {
   color: #FFFFFF;
 }
 
-.whiteSec {
-  background: #FFFFFF;
-  color: #0A1612;
-}
-
 .yellowSection {
   background: #F7CE3E;
   color: #1A2930;
   height: 60vh;
   min-height: 500px;
 }
-
+.secDiv {
+  width:100vw
+}
 .titleBox {
   height: 10vh;
   width: 30vw;
@@ -72,6 +69,7 @@ section {
   border-bottom: 3px solid #F7CE3E;
   padding-bottom: 10px;
   margin-bottom: 20px;
+  padding-top: 2.5%;
 }
 
 .right {
@@ -90,10 +88,6 @@ section {
   width: 100%;
   justify-content: space-evenly;
   flex-flow: row wrap;
-}
-
-#aboutSection {
-  flex-flow: column wrap;
 }
 
 .greyArticle {
@@ -123,10 +117,6 @@ p.greyArticle {
   color: #0A1612;
 }
 
- {
-  width: 90%;
-}
-
 #landing {
   height: 100vh;
   display:flex;
@@ -142,6 +132,29 @@ p.greyArticle {
   padding: 0 5% 10px 5%;
   border-bottom: 3px solid #F7CE3E
 }
+
+#about {
+  background-image: url(./images/GreatSaltFlats.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-items: flex-end;
+}
+
+#aboutArticle {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+  width: 30%;
+  min-width: 320px !important;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
 
 #headshot {
   border-radius: 50%;
