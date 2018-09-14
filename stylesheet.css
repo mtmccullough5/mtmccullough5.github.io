@@ -13,6 +13,15 @@ nav {
   padding-bottom: 10px;
 }
 
+a {
+  color:#1A2930;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1A2930;
+}
+
 p, ul {
   font-size: 20pt;
   width: 50%;
@@ -44,8 +53,8 @@ section {
   color: #FFFFFF;
 }
 
-.greySec {
-  background: #C5C1C0;
+.whiteSec {
+  background: #FFFFFF;
   color: #0A1612;
 }
 
