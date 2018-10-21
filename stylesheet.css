@@ -53,12 +53,15 @@ a:visited {
 
 p {
   font-size: 18pt;
-  width: 50%;
+  width: 80%;
   min-width: 300px;
   min-height: 0.25vh;
   text-align: left;
 }
-
+i {
+  font-size: 14pt;
+  align-self: flex-end;
+}
 #linkBar {
   display: flex;
   flex-grow: 1;
@@ -116,24 +119,10 @@ section {
   width: 100%;
   justify-content: space-evenly;
   flex-flow: row wrap;
+  margin-bottom: 5%
 }
 
-.greyArticle {
-  width:30%;
-  min-width: 300px;
-  background: #C5C1C0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px 5px 0px 5px;
-  color: #0A1612;
-}
-p.greyArticle {
-  font-size: 14;
-}
-
-.expArticle {
+.articleClass {
   width:80%;
   min-width: 300px;
   background: #FFFFFF;
@@ -145,34 +134,39 @@ p.greyArticle {
   color: #0A1612;
   font-size: 1.2em;
   margin: 1% 0 1% 0;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
-.expImage {
+.articleImage {
   align-self: auto;
-  width: 200px;
+  width: 250px;
 }
 
-.expContent {
+.articleContent {
   width: 70%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.expCompanyTitle {
+.companyTitle {
   align-self: flex-start;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   font-size: 1.4em;
   color: #1a2930;
 }
-.expJobTitle {
+.jobTitle {
   align-self: flex-start;
   padding: 0 0 0 0;
   font-size: 1.2em;
   font-weight: normal;
 }
 
-.expJobCity {
+.articleUnderline {
   border-bottom: 2px solid #F7CE3E;
+  width: 100%
 }
 
 #landing {
@@ -210,7 +204,6 @@ p.greyArticle {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 5%;
 }
 
 
