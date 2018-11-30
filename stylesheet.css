@@ -36,10 +36,14 @@ h3 {
 
 h5 {
   display: inline;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
   color: #0A1612;
 }
 
 h6 {
+  font-size: 12pt;
+  font-weight: 300;
   padding: 0 0 0 0;
   margin: 5px 0 0 0;
 }
@@ -158,6 +162,10 @@ section {
   width: 230px;
 }
 
+.jobImage {
+  align-self: auto;
+  width: 190px;
+}
 .articleContent {
   width: 70%;
   display: flex;
@@ -166,20 +174,22 @@ section {
 }
 
 .companyTitle {
-  display: inline;
+  display: inline-flex;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   font-size: 1.4em;
   color: #1a2930;
 }
 .jobTitle {
-  display: inline;
+  display: inline-flex;
+  align-self: center;
   padding: 0 0 0 0;
   font-size: 1.2em;
   font-weight: normal;
 }
 
 .articleUnderline {
+  align-self: center;
   border-bottom: 2px solid #F7CE3E;
   width: 100%
 }
