@@ -20,6 +20,12 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  margin: 5px 0 0 0;
+  font-size: 30pt;
+  align-self: flex-end
+}
+
 h3 {
   font-size: 20pt;
   font-weight: 150;
@@ -28,16 +34,8 @@ h3 {
   padding-top: 5px;
 }
 
-h2 {
-  margin: 5px 0 0 0;
-  font-size: 30pt;
-  align-self: flex-end
-}
-
-
-
 h5 {
-  display: block;
+  display: inline;
   color: #0A1612;
 }
 
@@ -47,13 +45,18 @@ h6 {
 }
 
 ul {
-  list-style-position: inside;
-  padding-left: 10px;
+  list-style-type: none;
+  padding-bottom: .3em;
+  padding-top: .3em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
 }
 
 li {
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-left: .6em;
+  padding-bottom: .2em;
+  padding-top: .2em;
 }
 
 a {
@@ -101,9 +104,11 @@ section {
   height: 60vh;
   min-height: 500px;
 }
+
 .secDiv {
   width:100vw
 }
+
 .titleBox {
   height: 10vh;
   width: 30vw;
@@ -161,14 +166,14 @@ section {
 }
 
 .companyTitle {
-  align-self: flex-start;
+  display: inline;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   font-size: 1.4em;
   color: #1a2930;
 }
 .jobTitle {
-  align-self: flex-start;
+  display: inline;
   padding: 0 0 0 0;
   font-size: 1.2em;
   font-weight: normal;
