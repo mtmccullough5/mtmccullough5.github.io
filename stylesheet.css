@@ -9,10 +9,18 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 2em;
   padding-top: 0.5em; 
   padding-bottom: 0.5em;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-items: center;
+  padding-left: 10%;
 }
 
 h1 {
@@ -48,7 +56,7 @@ h6 {
   margin: 5px 0 0 0;
 }
 
-ul {
+.articleList {
   list-style-type: none;
   padding-bottom: .3em;
   padding-top: .3em;
@@ -102,11 +110,30 @@ section {
   color: #FFFFFF;
 }
 
-.yellowSection {
-  background: #F7CE3E;
-  color: #1a2930;
+.blueSec1-2 {
   height: 60vh;
   min-height: 500px;
+}
+
+.skillsCol {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-items: space-between;
+  padding-left: 10%;
+}
+
+.contactCol {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-items: space-between;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.contactLogo {
+  width: 50%;
 }
 
 .secDiv {
@@ -121,12 +148,6 @@ section {
   padding-bottom: 10px;
   margin-bottom: 20px;
   padding-top: 2.5%;
-}
-
-.right {
-  align-self: flex-end;
-  justify-content: flex-end;
-  padding-right: 15px;
 }
 
 .left {
@@ -166,6 +187,7 @@ section {
   align-self: auto;
   width: 190px;
 }
+
 .articleContent {
   width: 70%;
   display: flex;
@@ -180,6 +202,7 @@ section {
   font-size: 1.4em;
   color: #1a2930;
 }
+
 .jobTitle {
   display: inline-flex;
   align-self: center;
@@ -201,6 +224,10 @@ section {
   align-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.skills{
+  font-size: 16pt;
 }
 
 #titleLine {
@@ -229,5 +256,63 @@ section {
   min-width: 300px;
 }
 
+@media (max-width: 500px){
+  .secDiv {
+    display: none;
+  }
+  .section {
+    align-items:center;
+  }
+  .titleBox {
+    align-self:center;
+  }
+  .skillsCol {
+    flex-direction:column;
+  }
+  ul {
+    margin-top:0;
+    margin-bottom:0;
+    align-self:center;
+  }
+  .blueSec {
+    align-items:center;
+  }
 
+  .left {
+    justify-content:center;
+  }
 
+  .articleClass {
+    flex-direction:column;
+    justify-items:center;
+    width:100%;
+  }
+
+  .articleContent {
+    width:100%
+  }
+
+  .contactCol {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-items: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  
+  #headshot {
+    max-width:100px;
+  }
+
+  #titleLine {
+    width:100%;
+    margin:0;
+    padding-left:0;
+  }
+
+  nav {
+    display: none;
+  }
+  
+}

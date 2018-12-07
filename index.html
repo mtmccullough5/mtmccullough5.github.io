@@ -5,12 +5,13 @@
     <title>Matthew McCullough Portfolio</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
   <body>
     <nav class="blueSec">
       <a href="#projects">PROJECTS</a>
-      <a href="#skills">SKILLS</a>
       <a href="#experience">EXPERIENCE</a>
+      <a href="#skills">SKILLS</a>
       <a href="#contact">CONTACT</a>
     </nav>
     <section class="blueSec" id="landing">
@@ -31,7 +32,7 @@
             <div class="articleContent">
               <h4 class="companyTitle">Flywheel Energy Storage</h4>
               <h6 class="articleUnderline">React.js</h6>
-              <ul>
+              <ul class="articleList">
                 <li>
                   - A single page react application that models the effects of an energy storage flywheel.
                 </li>
@@ -52,7 +53,7 @@
           <div class="articleContent">
             <h4 class="companyTitle">Bank Assist</h4>
             <h6 class="articleUnderline">React.js/Ruby on Rails/Postgresql</h6>
-            <ul>
+            <ul class="articleList">
               <li>
                 - Banking aggregation application using React, Ruby on Rails, and PostgreSQL
               </li>
@@ -73,7 +74,7 @@
           <div class="articleContent">
             <h4 class="companyTitle">2-D Cubic Splines</h4>
             <h6 class="articleUnderline">Matlab</h6>
-            <ul>
+            <ul class="articleList">
               <li>
                 - Calculates a piecewise function across three points using discrete solution to a cubic polynomial equation.
               </li>
@@ -88,7 +89,7 @@
           <div class="articleContent">
             <h4 class="companyTitle">Lift of a Rotating Cylinder</h4>
             <h6 class="articleUnderline">Matlab</h6>
-            <ul>
+            <ul class="articleList">
               <li>
                 - Calculates lift of a modeled unit cylinder rotating in uniform flow.
               </li>
@@ -114,7 +115,7 @@
               <h5 class="jobTitle"> &mdash; Developer and Teachers Assistant</h5>
             </div>
             <h6 class="articleUnderline">Salt Lake City, UT &mdash; <i>2018-Present</i></h6>
-            <ul>
+            <ul class="articleList">
               <li>
                 - Code review through grading of student assignments, 
                 and teaching debugging/testing strategies.
@@ -133,14 +134,14 @@
           </div>
         </article>
         <article class="articleClass">
-          <img class="jobImage" src="./images/_master_master__master20.png" alt="ERI Logo"/>
+          <img class="jobImage" src="./images/ERI_Logo.png" alt="ERI Logo"/>
           <div class="articleContent">
             <div>
               <h4 class="companyTitle">Energy Resources Integration</h4>
               <h5 class="jobTitle"> &mdash; Associate Engineer</h5>
             </div>
             <h6 class="articleUnderline">Oakland, CA / Salt Lake City, UT &mdash; <i>2015-2018</i></h6>
-            <ul>
+            <ul class="articleList">
                 <li>
                   - Performed on-site energy audits, developing new projects 
                   and creating relationships with customers.
@@ -173,7 +174,7 @@
                 <h5 class="jobTitle"> &mdash; Engineering Intern</h5>
               </div>
               <h6 class="articleUnderline">Sacramento, CA  &mdash; <i>2013-2014</i></h6>
-              <ul>
+              <ul class="articleList">
                 <li>
                   - Code review through grading of student assignments, 
                   and teaching debugging/testing strategies.
@@ -194,30 +195,35 @@
       </div> 
     </section>
     <img class="secDiv" src="./images/MTAirSaddle.jpg" alt="Panorama from saddle leading to Mt Aire UT"/>
-    <section class="yellowSection" id="skills">
-      <div class="right titleBox">
+    <section class="blueSec blueSec1-2" id="skills">
+      <div class="left titleBox blueline">
         <h2>Skills</h2>
       </div>
-      <ul id="col1">
-        <li>Python</li>
-        <li>React</li>
-        <li>HTML/CSS</li>
-      </ul>
-      <ul id="col2">
-        <li>MATLAB</li>
-        <li>PostgreSQL</li>
-        <li>Ajax/Fetch/Axios</li>
-      </ul>
+      <div class="skillsCol">
+        <ul>
+          <li class="skills">Python</li>
+          <li class="skills">React</li>
+          <li class="skills">HTML/CSS</li>
+        </ul>
+        <ul>
+          <li class="skills">MATLAB</li>
+          <li class="skills">PostgreSQL</li>
+          <li class="skills">Ajax/Fetch/Axios</li>
+        </ul>
+      </div>
     </section>
-    
-    <img class="secDiv" src="./images/CarsonIcebergHiking.jpg" alt="Carson-Iceberg wilderness Entrance CA"/>
-    <section class="greySection" id="contact">
-      <div class="right titleBox">
+    <section>
+      <div class="left titleBox">
         <h2>Contact</h2>
       </div>
-      <a href="https://github.com/mtmccullough5/"><img class="articleImage" src="./images/GitHub_Logo.png" alt="Github Logo"/></a>
-      <a href=""><img class="articleImage" src="./images/Logo-2C-108px-TM.png" alt="Linked in Logo"/></a>
-      <p>Version 1.0 Copyright &copy; 2018  Matthew McCullough </p>
+      <div class="contactCol">
+        <a href="https://github.com/mtmccullough5/" class="contactLogo"><img class="articleImage" src="./images/GitHub_Logo.png" alt="Github Logo"/></a>
+        <a href="https://www.linkedin.com/in/matthew-mccullough-7407794b/"  class="contactLogo"><img class="articleImage" src="./images/Logo-2C-108px-TM.png" alt="Linked in Logo"/></a>  
+      </div>
+      <p>
+        <br />
+        Version 1.0 Copyright &copy; 2018  Matthew McCullough 
+      </p>
     </section>
   </body>
 </html>
